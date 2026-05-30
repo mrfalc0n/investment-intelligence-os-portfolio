@@ -1,0 +1,8 @@
+[project]
+name = "investment-intelligence-os-portfolio"
+version = "0.1.0"
+description = "Public sanitized investment intelligence architecture portfolio with synthetic demo code."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
