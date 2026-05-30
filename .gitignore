@@ -1,0 +1,33 @@
+# Local/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment and credentials
+.env
+.env.*
+*.pem
+*.key
+secrets/
+private/
+
+# Financial/private material
+data/private/
+broker-exports/
+account-exports/
+raw-exports/
+tax-documents/
+client-data/
+*.xlsx
+*.xls
+*.csv
+*.pdf
+
+# Build/cache
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.pyc

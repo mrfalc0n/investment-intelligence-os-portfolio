@@ -1,0 +1,21 @@
+{
+  "synthetic": true,
+  "domain": "Investment Intelligence OS",
+  "workflow_lane": "portfolio_review",
+  "runtime_status": "passive_public_portfolio_reference",
+  "approved_actions": [
+    "observe",
+    "summarize",
+    "route",
+    "draft review packets"
+  ],
+  "prohibited_actions": [
+    "broker execution",
+    "order preview",
+    "credential storage",
+    "public exposure of account data",
+    "personalized financial advice"
+  ],
+  "status_summary": "Synthetic public-safe status packet showing how workflow state can be represented without exposing private account data.",
+  "next_safe_action": "Review synthetic examples and architecture docs only."
+}

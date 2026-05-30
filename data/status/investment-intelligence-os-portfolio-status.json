@@ -1,0 +1,25 @@
+{
+  "schema_version": "2026-05-30.passive-status.v1",
+  "domain": "Investment Intelligence OS Portfolio",
+  "owner_repo": "investment-intelligence-os-portfolio",
+  "runtime_status": "passive_public_portfolio_reference",
+  "promotion_gate": "public_docs_only",
+  "last_updated": "2026-05-29 20:53 EDT",
+  "approved_for": [
+    "observe",
+    "display public portfolio status",
+    "summarize architecture",
+    "route to private owning repo"
+  ],
+  "not_approved_for": [
+    "financial advice",
+    "broker execution",
+    "order preview",
+    "credential storage",
+    "publishing real account data",
+    "runtime agent activation"
+  ],
+  "represented_private_repo": "investment-os",
+  "status_summary": "Public sanitized portfolio repo for investment intelligence architecture, agent roles, workflow boundaries, and synthetic examples.",
+  "privacy_rule": "Synthetic or generalized public-safe content only; no real holdings, accounts, broker data, credentials, or trade instructions."
+}

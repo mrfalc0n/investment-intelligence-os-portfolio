@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "as_of": "2026-05-29",
+  "accounts": [
+    {
+      "account_label": "Taxable Brokerage",
+      "account_domain": "taxable_accessible",
+      "holdings": [
+        {
+          "symbol": "SYN-AI",
+          "name": "Synthetic AI Infrastructure ETF",
+          "asset_type": "ETF",
+          "theme": "ai_infrastructure",
+          "market_value": 6200,
+          "portfolio_role": "core_theme_exposure"
+        },
+        {
+          "symbol": "SYN-CASH",
+          "name": "Synthetic Cash Reserve",
+          "asset_type": "cash",
+          "theme": "liquidity",
+          "market_value": 3500,
+          "portfolio_role": "near_term_flexibility"
+        }
+      ]
+    },
+    {
+      "account_label": "Retirement Account",
+      "account_domain": "retirement_tax_advantaged",
+      "holdings": [
+        {
+          "symbol": "SYN-GRID",
+          "name": "Synthetic Grid Infrastructure Fund",
+          "asset_type": "ETF",
+          "theme": "power_grid",
+          "market_value": 8400,
+          "portfolio_role": "long_duration_growth"
+        },
+        {
+          "symbol": "SYN-SEMIS",
+          "name": "Synthetic Semiconductor Basket",
+          "asset_type": "ETF",
+          "theme": "semiconductors",
+          "market_value": 9100,
+          "portfolio_role": "core_theme_exposure"
+        }
+      ]
+    }
+  ]
+}

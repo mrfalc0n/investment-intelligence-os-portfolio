@@ -1,0 +1,25 @@
+flowchart TD
+    H["Human investor<br/>final decision authority"] --> I["Investment Intelligence OS"]
+
+    I --> L["Investment Lead<br/>routing and safety policy"]
+    L --> O["Options Income Lane"]
+    L --> S["Stocks / ETF Research Lane"]
+    L --> P["Portfolio Policy Layer"]
+
+    O --> O1["Scanner and candidate triage"]
+    O --> O2["Risk guard"]
+    O --> O3["Read-only broker reconciliation"]
+    O --> O4["P/L and lifecycle tracking"]
+    O --> O5["Notification / review packet"]
+
+    S --> S1["Thesis-aware research"]
+    S --> S2["Holdings review"]
+    S --> S3["Market intelligence brief"]
+    S --> S4["Allocation and rebalance advisor"]
+
+    P --> P1["Total portfolio view"]
+    P --> P2["Taxable / accessible domain"]
+    P --> P3["Retirement / tax-advantaged domain"]
+    P --> P4["Action queue review"]
+
+    I --> K["Knowledge layer<br/>repo docs, synthetic examples, cockpit schemas"]
